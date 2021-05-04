@@ -1,0 +1,20 @@
+BODY{
+	font-family: Verdana;
+	color:#000;
+}
+
+A, BUTTON{
+	background: #DDD;
+	text-decoration: none;
+	background-image: linear-gradient(to bottom right, cyan, blue);
+	padding: 5px;
+	color:white;
+	border: solid #000 1px;
+	box-shadow: #666 5px 5px 5px;
+}
+A:hover, BUTTON:hover{
+	transition: 500ms;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-image: linear-gradient(to bottom right, cyan, navy);
+}
